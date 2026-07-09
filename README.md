@@ -19,15 +19,25 @@ The application provides a searchable database of:
   * Streamlit
   * Pandas
   * Google Sheets (CSV)
-## Why? 
-  I created this project to make it easier for students to find high-quality educational opportunities in one place. Instead of searching across multiple websites, users can browse and filter resources through a simple interface.
-
+## Motivation 
+  When I started preparing for studying abroad, I spent a lot of time searching for courses, competitions and other educational opportunities. The information was spread across many different websites, which made the process slow and confusing.
+I decided to build Student Compass to collect useful opportunities in one place. My goal is to help students discover activities that can improve their skills and build a stronger portfolio for university applications.
+## Challenges 
+The biggest challenge was learning how to work with Streamlit. I had to read the documentation and understand how different components work together.
+Creating interactive cards and filters also required several attempts before I found a solution that worked well.
+## What I learned?
+During this project I learned:
+* how to build web applications with Streamlit;
+* how to work with data using Pandas;
+* how to create interactive filters;
+* how to write project documentation.
 ## Future Improvements:
- * Favorites system
- * Resource recommendations
- * Deadline tracking
- * User accounts
- * Better search and ranking
+ In the future I would like to:
+* improve the user interface;
+* add AI-powered recommendations;
+* create user accounts;
+* add a favorites system;
+* track application deadlines.
 ## How to Run?
   * pip install -r requirements.txt
   * streamlit run app.py
